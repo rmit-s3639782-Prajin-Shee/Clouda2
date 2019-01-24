@@ -1,11 +1,15 @@
 package com.example.s3639782.clouda2.model;
 
+import com.google.android.gms.maps.model.LatLng;
+
 public class User {
 
     private String mUUID;
     private String mUserName;
     private String mEmail;
-    private String mBio;
+    private String Age;
+    private String phone;
+    private LatLng Location;
 
 
     public User() {
@@ -36,4 +40,28 @@ public class User {
         this.mEmail = mEmail;
     }
 
+
+    public String getAge() {
+        return Age;
+    }
+
+    public void setAge(String age) {
+        Age = age;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public LatLng getLocation() {
+        return Location;
+    }
+
+    public void setLocation(LatLng location) {
+        Location = location;
+    }
 }

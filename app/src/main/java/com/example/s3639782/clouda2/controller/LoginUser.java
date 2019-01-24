@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.s3639782.clouda2.R;
 import com.example.s3639782.clouda2.view.MapsActivity;
+import com.example.s3639782.clouda2.view.ProfileSetupActivity;
 import com.example.s3639782.clouda2.view.RegisterActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
