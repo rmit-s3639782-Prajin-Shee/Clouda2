@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.s3639782.clouda2.R;
+import com.example.s3639782.clouda2.view.IncidentDescActivity;
 import com.example.s3639782.clouda2.view.MapsActivity;
 import com.example.s3639782.clouda2.view.ProfileSetupActivity;
 import com.example.s3639782.clouda2.view.RegisterActivity;
@@ -65,7 +66,7 @@ public class LoginUser implements View.OnClickListener {
 
                         if(task.isSuccessful()){
                             Toast.makeText(context, "Login Successful",Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(context, MapsActivity.class);
+                            Intent i = new Intent(context, IncidentDescActivity.class);
                             context.startActivity(i);
                         }
                         else{

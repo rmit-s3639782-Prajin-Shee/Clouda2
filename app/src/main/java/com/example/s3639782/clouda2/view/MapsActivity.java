@@ -79,7 +79,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 MarkerOptions marker = new MarkerOptions().position(
                         new LatLng(point.latitude, point.longitude)).title("New Marker");
+                String incName = getIntent().getExtras().getString("incName");
+                String incDesc = getIntent().getExtras().getString("incDesc");
 
+                marker.title(incName);
+                marker.snippet(incDesc);
 
                 mMap.addMarker(marker);
 
@@ -104,7 +108,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public boolean onMarkerClick(Marker marker) {
 
-                // marker.remove();
+                marker.showInfoWindow();
                 return true;
             }
         });

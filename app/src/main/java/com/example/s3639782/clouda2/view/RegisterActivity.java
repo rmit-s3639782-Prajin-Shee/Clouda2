@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
         registerBtn = (Button)findViewById(R.id.btnRegister);
 
 
-       // mRegisterToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.register_toolbar);
+        // mRegisterToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.register_toolbar);
 
         //setSupportActionBar(mRegisterToolbar);
         //getSupportActionBar().setTitle("Register");

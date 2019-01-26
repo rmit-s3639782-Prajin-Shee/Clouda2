@@ -32,7 +32,7 @@ public class RegisterUser implements View.OnClickListener{
 
     public RegisterUser(EditText Email, EditText Name, EditText Password, Context context){
         this.Email = Email;
-       this.Password = Password;
+        this.Password = Password;
         this.Name = Name;
         this.context = context;
 
